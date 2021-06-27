@@ -1,0 +1,172 @@
+#projects {
+  background-color: $background-color;
+  color: $dark-blue-text;
+  margin-top: -15rem;
+  padding-top: 15rem;
+  margin-bottom: 10rem;
+
+  @include respond(tab-land) {
+    margin-top: 0;
+    padding-top: 5rem;
+  }
+
+  .project-wrapper {
+    .col {
+      margin-top: 5rem;
+    }
+    .post-module {
+      position: relative;
+      z-index: 1;
+      display: block;
+      min-width: 270px;
+      height: 430px;
+      -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+      -webkit-transition: all 0.3s linear 0s;
+      -moz-transition: all 0.3s linear 0s;
+      -ms-transition: all 0.3s linear 0s;
+      -o-transition: all 0.3s linear 0s;
+      transition: all 0.3s linear 0s;
+      border: 0.5rem;
+      border-color: $highlight-color;
+      border-style: solid;
+
+      &:hover {
+        -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+      }
+    }
+
+    .hover {
+      -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .post-module:hover .thumbnail .gatsby-image-wrapper,
+    .hover .thumbnail .gatsby-image-wrapper {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      transform: scale(1.1);
+      opacity: 0.6;
+    }
+
+    .post-module {
+      .category {
+        position: absolute;
+        top: 10px;
+        z-index: 1;
+        left: 0;
+        background: $orange-color;
+        padding: 10px 15px;
+        color: $background-color;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .thumbnail {
+        height: 400px;
+        overflow: hidden;
+
+        .date {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          z-index: 1;
+          background: $red-color;
+          width: 55px;
+          height: 55px;
+          padding: 12.5px 0;
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
+          border-radius: 100%;
+          color: #ffffff;
+          font-weight: 700;
+          text-align: center;
+          -webkti-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+          .day {
+            font-size: 18px;
+          }
+
+          .month {
+            font-size: 12px;
+            text-transform: uppercase;
+          }
+        }
+
+        .gatsby-image-wrapper {
+          display: block;
+          width: 120%;
+          -webkit-transition: all 0.3s linear 0s;
+          -moz-transition: all 0.3s linear 0s;
+          -ms-transition: all 0.3s linear 0s;
+          -o-transition: all 0.3s linear 0s;
+          transition: all 0.3s linear 0s;
+        }
+      }
+
+      .post-content {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 180px;
+        padding: 30px;
+        -webkti-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+        -moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+        -ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+        -o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+        transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+
+        .title {
+          margin: 0;
+          padding: 0 0 10px;
+          color: $pink-color;
+          font-size: 26px;
+          font-weight: 700;
+        }
+
+        .sub_title {
+          margin: 0;
+          padding: 0 0 20px;
+          color: $yellow-color;
+          font-size: 20px;
+          font-weight: 400;
+        }
+        .description {
+          color: $white-color;
+          margin: 1rem;
+          position: absolute;
+          opacity: 0;
+          top: 3rem;
+          left: 0rem;
+          font-size: 14px;
+          line-height: 1.8em;
+          transition: 0.2s;
+        }
+        .post-meta {
+          padding: 0.5rem;
+          border-radius: 0.5rem;
+          transition: 0.3s;
+        }
+      }
+    }
+    .post-module:hover {
+      .post-content .post-meta {
+        transform: translateY(-180px);
+      }
+      .post-content .description {
+        display: block;
+        height: auto;
+        opacity: 1;
+      }
+    }
+  }
+}

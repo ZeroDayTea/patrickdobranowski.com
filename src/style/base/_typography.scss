@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+h1 {
+  font-weight: 700;
+}
+
+p,
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: $default-font-size;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.section-title {
+  margin: 0px;
+  margin-bottom: 2.5rem;
+  font-size: $big-font-size;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  @include respond(phone) {
+    font-size: 2.8rem;
+  }
+}
+
+.dark-blue-text {
+  color: $dark-blue-text !important;
+}
+
+.text-color-main {
+  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  // Responsive text purple style
+  @include respond(phone) {
+    background-image: none;
+    -webkit-text-fill-color: $secondary-color;
+  }
+
+  &:hover {
+    transform: translateX(2px);
+  }
+}
+
+a,
+a * {
+  color: $pink-color;
+  background-color: transparent;
+}
+
+a:hover,
+a:hover *,
+a:visited:hover,
+a:visited:hover *,
+span[onclick]:hover,
+div[onclick]:hover,
+[role='link']:hover,
+[role='link']:hover *,
+[role='button']:hover *,
+[role='menuitem']:hover,
+[role='menuitem']:hover *,
+.link:hover,
+.link:hover * {
+  color: $yellow-color;
+}
+
+a:visited,
+a:visited * {
+  color: rgba(98, 114, 164, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+[id*='headline'],
+[class*='headline'],
+[id*='header'],
+[class*='header'],
+[class*='header'] td {
+  color: rgba(189, 147, 249, 1);
+}
+
+table {
+  background-color: rgba(40, 42, 54, 1);
+}
+
+[id*='overlay'],
+[id*='lightbox'],
+blockquote {
+  background-color: rgba(68, 71, 90, 1);
+}
+
+pre,
+dl {
+  background-color: rgba(68, 71, 90, 1);
+}
+
+input,
+select,
+button,
+[role='button'],
+a.button,
+a.submit,
+a.BigButton,
+a.TabLink,
+.install[onclick] {
+  text-indent: 5px;
+  appearance: none !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  background: rgba(68, 71, 90, 1);
+}
+
+textarea {
+  appearance: none !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  background: rgba(68, 71, 90, 1);
+}
+
+div,
+ul,
+li {
+  background-image: none !important;
+}
+
+a.highlight,
+a.highlight *,
+a.active,
+a.active *,
+.selected,
+.selected *,
+[href='#'] {
+  font-weight: bold !important;
+  color: rgba(139, 233, 253, 1) !important;
+}
+
+.cyan {
+  color: #8be9fd !important;
+}
+.green {
+  color: #50fa7b !important;
+}
+.orange {
+  color: #ffb86c !important;
+}
+.pink {
+  color: #ff79c6 !important;
+}
+.purple {
+  color: #bd93f9 !important;
+}
+.red {
+  color: #ff5555 !important;
+}
+.yellow {
+  color: #f1fa8c !important;
+}

@@ -1,0 +1,138 @@
+#hero {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  border-bottom: 0px;
+  background: $background-color;
+  font-weight: 400;
+  color: $dark-blue-text;
+  padding: 0rem 5.6rem;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  #hero-subtitle {
+    white-space: pre-wrap;
+    margin: 0;
+    margin-bottom: 3.2rem;
+  }
+  .float {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 5rem;
+    right: 5rem;
+    opacity: 0.5;
+    background-color: $pink-color;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 3rem;
+    }
+    .text {
+      position: relative;
+      transition: all 0.1s ease-in;
+      visibility: hidden;
+      font-size: 3rem;
+    }
+    transition: 0.3s;
+  }
+  .float:hover {
+    opacity: 1;
+    width: 230px;
+    .icon {
+      opacity: 0;
+    }
+    .text {
+      margin: 0;
+      font-size: 3rem;
+      transition-delay: 0.1s;
+      visibility: visible;
+      color: black;
+    }
+  }
+
+  // If you want to set a background image on the hero section, uncomment these with yout custom image
+
+  /* background: url("/src/assets/[your-image].png");
+  background-position: center;
+  background-size: cover; */
+
+  @include respond(phone) {
+    padding: 0rem $default-font-size;
+  }
+
+  .hero-title {
+    font-size: 5.6rem;
+    font-weight: 700;
+    text-align: left;
+    .mobile {
+      margin-top: 10rem;
+    }
+    .typing {
+      width: 22ch;
+      animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+      white-space: nowrap;
+      overflow: hidden;
+      font-family: monospace;
+      font-size: 1.5em;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+
+    @include respond(tab-land) {
+      font-size: 4rem;
+    }
+    @include respond(tab-port) {
+      font-size: 3.6rem;
+      text-align: center;
+    }
+    @include respond(phone) {
+      font-size: 3.5rem;
+      line-height: 1.5;
+    }
+    @include respond(phone-xs) {
+      font-size: 2.8rem;
+    }
+  }
+
+  .hero-cta {
+    display: flex;
+
+    @include respond(tab-port) {
+      justify-content: center;
+    }
+
+    & a {
+      font-size: 2.4rem;
+
+      @include respond(phone) {
+        font-size: 2rem;
+      }
+    }
+  }
+}
