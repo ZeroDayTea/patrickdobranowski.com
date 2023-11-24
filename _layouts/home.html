@@ -1,0 +1,32 @@
+{% include header.html %}
+{% include pagination.html %}
+{% include home-hero.html %}
+
+<main id="portfolio">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9">
+
+                {% if site.section_title != '' %}
+                <h2 class="section-title text-center">{{ site.section_title }}</h2>
+                {% endif %}
+                {% if site.section_subtitle != '' %}
+                <p class="section-subtitle text-center">{{ site.section_subtitle }}</p>
+                {% endif %}
+
+                <div class="break"></div>
+
+                <nav class="navbar navbar-light">
+                    {% for item in site.nav_item %}
+                    <a href="#{{ item.text }}" data-target="{{ item.url }}" class="nav-link">{{ item.text }}</a>
+                    {% endfor %}
+                </nav>
+
+                <div id="page-content" class="page-content">
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{% include footer.html %}
