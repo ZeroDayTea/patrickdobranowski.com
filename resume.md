@@ -9,6 +9,7 @@ permalink: /resume/
 *Master of Science in Computer Science*\
 - Research in scientific computing/computational physics, machine learning security, and systems security
 
+<br>
 *Bachelor of Science in Computer Science, Mathematics, Physics*\
 - Ingram Scholars Program - Prestigious Full Tuition + Housing Scholarship Awarded to Top 8 of 1300+ applicants
 - Data Structures, Discrete Structures, Integrated Software Design, Digital Systems, Programming
@@ -38,9 +39,11 @@ several of Dupper Analytics’ Colorado clients
 - Working with researchers from ELI-ALPS Laser Facility and Dr. Peter Foldi on models for high-order harmonic generation and 
 quantized fields.
 
+<br>
 **Professor Kalman Varga**\
 - Working with Dr. Kalman Varga on time-dependent quantum simulation software and nanoscale interaction of light and matter.
 
+<br>
 **Vanderbilt I-Privacy Lab: Machine Learning + Cybersecurity Research**\
 - Self-Learning and Self-Evolving Detection of Altered, Deceptive Images and Videos Project (Funded by NSF)
 - Working with Dr. Dan Lin to develop Deep Neural Network techniques for detecting altered media/assessing integrity of
