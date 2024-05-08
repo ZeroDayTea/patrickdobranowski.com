@@ -6,15 +6,19 @@ permalink: /resume/
 ## Education
 
 **Vanderbilt University**\
+*Master of Science in Computer Science*
+- Research in scientific computing/computational physics, machine learning security, and systems security
 *Bachelor of Science in Computer Science, Mathematics, Physics*
 - Ingram Scholars Program - Prestigious Full Tuition + Housing Scholarship Awarded to Top 8 of 1300+ applicants
 - Data Structures, Discrete Structures, Integrated Software Design, Digital Systems, Programming
-Languages, Linear Algebra, Probability, Abstract Algebra, Number Theory
+Languages, Algorithms, Machine Learning, Extended Mathematical Programming, Linear Algebra, Probability, Abstract Algebra, 
+Number Theory, Topology, Modern Algebra, Numerical Mathematics, Modern Physics and the Quantum World, Classical Mechanics, 
+Statistical Physics, Quantum Mechanics
 
 <br>
 ## Professional Experience
 **Trail of Bits**\
-*Security Engineering Associate | Internship*
+*Vulnerability Research Associate*
 - Researched use of machine learning systems in software security analysis and developed a framework for analyzing the
 effectiveness of particular models in code understanding and identification of software vulnerabilities
 - Performed security audits of cloud-computing infrastructure and machine learning frameworks
@@ -29,7 +33,12 @@ several of Dupper Analytics’ Colorado clients
 
 <br>
 ## Research Experience
-**Vanderbilt I-Privacy Lab: Machine Learning + Cybersecurity Research Assistant**
+**ELI-ALPS/University of Szeged**
+- Working with researchers from ELI-ALPS Laser Facility and Dr. Peter Foldi on models for high-order harmonic generation and 
+quantized fields.
+**Professor Kalman Varga**
+- Working with Dr. Kalman Varga on time-dependent quantum simulation software and nanoscale interaction of light and matter.
+**Vanderbilt I-Privacy Lab: Machine Learning + Cybersecurity Research**
 - Self-Learning and Self-Evolving Detection of Altered, Deceptive Images and Videos Project (Funded by NSF)
 - Working with Dr. Dan Lin to develop Deep Neural Network techniques for detecting altered media/assessing integrity of
 digial video content and protecting against machine learning attacks such as adversarial input and data poisoning
@@ -45,5 +54,5 @@ digial video content and protecting against machine learning attacks such as adv
 <br>
 ## Skills
 **Categories**: Software Engineering, Security Engineering, Low-Level Programming, Machine Learning, Binary Security, ML Security, Web Application Security, Computational Simulation
-**Programming**: C++, Python (PyTorch, TensorFlow, Django), C, Assembly (x86, ARM), C# (Unity, .NET), Java, PHP, Javascript, Theorem Proving (Z3, Coq), Haskell, Rust, HLSL\
+**Programming**: C++, Python (PyTorch, TensorFlow, Django), C, Assembly (x86, ARM), C# (Unity, .NET), Java, PHP, Javascript, Theorem Proving (Z3, Coq), Haskell, Rust, HLSL
 **Tools**: Ghidra, IDA Pro, GDB, Git, MySQL, Mongo, Docker, Kubernetes, Linux
