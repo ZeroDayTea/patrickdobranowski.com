@@ -6,10 +6,10 @@ permalink: /resume/
 ## Education
 
 **Vanderbilt University**\
-*Master of Science in Computer Science*
+*Master of Science in Computer Science*\
 - Research in scientific computing/computational physics, machine learning security, and systems security
 
-*Bachelor of Science in Computer Science, Mathematics, Physics*
+*Bachelor of Science in Computer Science, Mathematics, Physics*\
 - Ingram Scholars Program - Prestigious Full Tuition + Housing Scholarship Awarded to Top 8 of 1300+ applicants
 - Data Structures, Discrete Structures, Integrated Software Design, Digital Systems, Programming
 Languages, Algorithms, Machine Learning, Extended Mathematical Programming, Linear Algebra, Probability, Abstract Algebra, 
@@ -34,14 +34,14 @@ several of Dupper Analytics’ Colorado clients
 
 <br>
 ## Research Experience
-**ELI-ALPS/University of Szeged**
+**ELI-ALPS/University of Szeged**\
 - Working with researchers from ELI-ALPS Laser Facility and Dr. Peter Foldi on models for high-order harmonic generation and 
 quantized fields.
 
-**Professor Kalman Varga**
+**Professor Kalman Varga**\
 - Working with Dr. Kalman Varga on time-dependent quantum simulation software and nanoscale interaction of light and matter.
 
-**Vanderbilt I-Privacy Lab: Machine Learning + Cybersecurity Research**
+**Vanderbilt I-Privacy Lab: Machine Learning + Cybersecurity Research**\
 - Self-Learning and Self-Evolving Detection of Altered, Deceptive Images and Videos Project (Funded by NSF)
 - Working with Dr. Dan Lin to develop Deep Neural Network techniques for detecting altered media/assessing integrity of
 digial video content and protecting against machine learning attacks such as adversarial input and data poisoning
