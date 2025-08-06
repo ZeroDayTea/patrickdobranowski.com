@@ -7,7 +7,7 @@ permalink: /resume/
 
 ### **Vanderbilt University**
 #### *Master of Science in Computer Science*
-- Research in scientific computing/computational physics, machine learning security, and systems security
+- Research in real-time systems security, scientific computing/computational physics, and machine learning security
 
 #### *Bachelor of Science in Computer Science, Mathematics, Physics*
 - Ingram Scholars Program - Prestigious Full Ride Scholarship Awarded to Top 8 of 1300+ applicants
