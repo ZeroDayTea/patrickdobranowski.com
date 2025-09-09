@@ -56,17 +56,22 @@ p {
 a {
   @include transition(color .2s ease-in-out);
   color: #737373;
-  font-size: 1.125em;
   line-height: 1.75rem;
-  margin: 5px;
   &:hover {
     color: #000000;
     text-decoration: none;
   }
+  text-decoration: underline;
 }
 
 nav {
     text-align: center;
+}
+
+nav a {
+  font-size: 1.125em;
+  margin: 5px;
+  text-decoration: none;
 }
 
 img {

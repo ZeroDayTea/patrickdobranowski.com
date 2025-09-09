@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hello. I'm Patrick Dobranowski."
 email: 'patrick.dobranowski@gmail.com'
-description: "I'm a researcher and software engineer building high-performance systems where nanoseconds matter -- from bare-metal real-time systems to machine learning"
+description: "I'm a researcher and software engineer interested in computer science, physics, and mathematics"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://patrickdobranowski.com" # the base hostname & protocol for your site, e.g. https://example.com
 twitter_username: ''
@@ -109,5 +109,5 @@ enable_nav: false
 nav_item:
   - { url: '/about', text: 'about' }
   - { url: '/resume', text: 'resume' }
-  - { url: '/projects', text: 'projects' }
+  # - { url: '/projects', text: 'projects' }
   - { url: '/writing', text: 'writing' }
