@@ -1,16 +1,14 @@
+# patrickdobranowski.com
 
-## Building
+```
+index.html          /
+resume/index.html   /resume/
+writing/index.html  /writing/
+style.css
+```
+
+preview locally:
+
 ```bash
-gem install bundler
-bundle install
-bundle exec jekyll serve
+python3 -m http.server
 ```
-
-## Testing
-
-```
-bundle exec jekyll serve --livereload
-```
-
-`http://127.0.0.1:4000`
-

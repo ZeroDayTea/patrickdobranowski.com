@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Writing · Patrick Dobranowski</title>
+<meta name="description" content="Patrick Dobranowski studies physics, mathematics, and computer science at Vanderbilt University — quantum optics, group theory, machine learning, and real-time systems.">
+<link rel="icon" href="/favicon.png">
+<link rel="stylesheet" href="/style.css">
+<script>try{if(localStorage.theme==='dark')document.documentElement.dataset.theme='dark'}catch(e){}</script>
+<noscript><style>.toggle{display:none}</style></noscript>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="page">
+<header>
+<a class="name" href="/">Patrick Dobranowski</a>
+<div class="bar">
+<nav>
+<a href="/">About</a>
+<a href="/resume/">Resume</a>
+<a href="/writing/" aria-current="page">Writing</a>
+</nav>
+<button class="toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+<svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+<svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+</button>
+</div>
+</header>
+<main id="main"><p>CTF writeups and technical writings
+
+<div class="entries">
+<div><a target="_blank" href="https://squ1rrel.dev/csaw-mini-golfing">mini-golfing</a><span>CSAW CTF · pwn · September 2024</span></div>
+<div><a target="_blank" href="https://squ1rrel.dev/blackhatmea-babysbx">babysbx</a><span>Blackhat MEA · pwn · November 2023</span></div>
+<div><a target="_blank" href="https://squ1rrel.dev/sekai-guardians-of-the-kernel">Guardians of the Kernel</a><span>SekaiCTF · rev · September 2023</span></div>
+<div><a target="_blank" href="https://squ1rrel.dev/buckeye-stackduck">stack duck</a><span>BuckeyeCTF · pwn · November 2022</span></div>
+<div><a target="_blank" href="https://squ1rrel.dev/bluehens-otp">Rick and Morty — One Time Pad</a><span>BlueHensCTF · misc · November 2022</span></div>
+<div><a target="_blank" href="https://squ1rrel.dev/wreck-password-3">password-3</a><span>wreckCTF · web · November 2022</span></div>
+</div>
+</main>
+<footer>
+<a target="_blank" href="https://github.com/ZeroDayTea">GitHub</a>
+<a target="_blank" href="https://linkedin.com/in/patrick-dobranowski">LinkedIn</a>
+<span>patrick dot dobranowski at gmail dot com</span>
+</footer>
+</div>
+<script>
+var r=document.documentElement,b=document.querySelector('.toggle');
+function s(){var d=r.dataset.theme==='dark';b.setAttribute('aria-pressed',d);b.setAttribute('aria-label',d?'Switch to light mode':'Switch to dark mode')}
+b.onclick=function(){var d=r.dataset.theme==='dark';if(d)delete r.dataset.theme;else r.dataset.theme='dark';try{localStorage.theme=d?'light':'dark'}catch(e){}s()};
+s();
+</script>
+</body>
+</html>
